@@ -1,0 +1,98 @@
+.typo {
+    font-family: Roboto, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.main {
+
+    flex: 0 0 500px;
+    height: 300px;
+    /* here%,min-height: is not working; */
+    overflow: auto;
+    box-shadow: 0 5px 20px -5px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: #6200ee;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-collapsed {
+    display: inline-flex;
+    background-color: #6200ee;
+    padding: 5px 0px 5px 0;
+    border-bottom-right-radius: 25px;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icons-down,
+.icons-print,
+.icons-bmark {
+    padding: 0.75rem;
+}
+
+.icons-down:hover {
+    background-color: rgb(85, 26, 139);
+    border-radius: 100%;
+}
+
+.icons-print:hover {
+    background-color: rgb(85, 26, 139);
+    border-radius: 100%;
+}
+
+.icons-bmark:hover {
+    background-color: rgb(85, 26, 139);
+    border-radius: 100%;
+}
+
+.images {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.burger {
+    margin-left: 8px;
+    padding: 0.75rem;
+}
+
+.burger:hover {
+    background-color: rgb(85, 26, 139);
+    border-radius: 100%;
+}
+
+.head {
+    margin: 10px 10px 10px 5px;
+}
+
+.stick-head {
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    padding: 0px 10px 5px 10px;
+}
